@@ -1,0 +1,59 @@
+    h1 {
+        color: black;
+    }
+    
+    h2 {
+        color: gray
+    }
+    
+    body {
+        background: url("index2.jpg");
+        background-repeat: no-repeat;
+    }
+    
+    .jumbotron {
+        background-image: url("wikidiner/index3.jpg");
+        background-size: cover;
+    }
+    
+    .search {
+        width: 50%;
+        position: relative;
+        display: flex;
+    }
+    
+    .searchTerm {
+        width: 100%;
+        border: 2px solid black;
+        border-right: none;
+        padding: 15px;
+        height: 50px;
+        border-radius: 6px 0 0 5px;
+        outline: none;
+        color: black;
+    }
+    
+    .searchTerm:focus {
+        color: black;
+    }
+    
+    .searchButton {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        background: black;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    /*Resize the wrap to see the search bar change!*/
+    
+    .wrap {
+        width: 10%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
